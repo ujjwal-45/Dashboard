@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <title>Dashboard</title>
+</head>
+<body>
+
+    <!-- Start of Sidebar-->
+    <div class="container">
+        <aside>
+            <div class="toggle">
+                <div class="logo">
+                    <img class="img" src="images/cake_logo_1.jpeg">
+                    <h2>Cake <span class="danger">Factory</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">
+                        close
+                    </span>
+
+                </div>
+
+            </div>
+            
+            <div class="sidebar">
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        space_dashboard
+                    </span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        person_outline
+                    </span>
+                    <h3>Users</h3>
+                </a>
+                <a href="#" >
+                    <span class="material-icons-sharp">
+                        receipt_long
+                    </span>
+                    <h3>History</h3>
+                </a>
+                <a href="#" class="active">
+                    <span class="material-icons-sharp">
+                        analytics
+                    </span>
+                    <h3>Analytics</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        mail_outline
+                    </span>
+                    <h3>Tickets</h3>
+                    <span class="message-count">27</span>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        inventory
+                    </span>
+                    <h3>Sale List</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        report_gmailerrorred
+                    </span>
+                    <h3>Reports</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        settings
+                    </span>
+                    <h3>Settings</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        add
+                    </span>
+                    <h3>New Login</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        logout
+                    </span>
+                    <h3>Logout</h3>
+                </a>
+                
+            </div>
+        </aside>
+        <!-- End of Sidebar-->
+        
+        <!-- main content-->
+        <main>
+            <h1>Analytics</h1>
+            <!-- Analyses-->
+            <div class="analyse">
+                <div class="sales">
+                    <div class="status">
+
+                        <div class="info">
+                            <h3>Total Sales</h3>
+                            <h1>₹3,065,033</h1>
+                        </div>
+                        <div class="progresss">
+                            <svg>
+                                <circle cx="38" cy="38" r="36" ></circle>
+                            </svg>
+                            <div class="percentage">
+                                <p>81%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="visits">
+                    <div class="status">
+                
+                        <div class="info">
+                            <h3>Site Visits</h3>
+                            <h1>13,203</h1>
+                        </div>
+                        <div class="progresss">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="percentage">
+                                <p>-29%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="searches">
+                    <div class="status">
+                
+                        <div class="info">
+                            <h3>Searches</h3>
+                            <h1>16,354</h1>
+                        </div>
+                        <div class="progresss">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="percentage">
+                                <p>+15%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End of Analytics -->
+            
+            <!--Users-->
+            <div class="new-users">
+                <h2>New Users</h2>
+                <div class="user-list">
+                    <div class="user">
+                        <img src="images/about-profile.jpg">
+                        <h2>Sally</h2>
+                        <p>36 min ago</p>
+                    </div>
+                    <div class="user">
+                        <img src="images/people-3.jpeg">
+                        <h2>Ray</h2>
+                        <p>56 min ago</p>
+                    </div>
+                    <div class="user">
+                        <img src="images/people-2.jpeg">
+                        <h2>Jane</h2>
+                        <p>1 hour ago</p>
+                    </div>
+                    
+                    <div class="user">
+                        <img src="images/people-4.jpeg">
+                        <h2>John</h2>
+                        <p>2 hours ago</p>
+                    </div>
+                    <div class="user">
+                        <img src="images/plus.png">
+                        <h2>More</h2>
+                        <p>new user</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--End of Users section-->
+
+            <!-- Recent Orders Table -->
+            <div class="recent-orders">
+                <h2>Recent Orders</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Cake Name</th>
+                            <th>Cake Number</th>
+                            <th>Payment</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+                <a href="#">Show All</a>
+            </div>
+            <!-- Recent Orders Table End-->
+
+        </main>
+        <!-- End of Main Section-->
+
+        <!-- Right Section-->
+        <div class="right-section">
+            <div class="nav">
+                <button id="menu-btn">
+                    <span class="material-icons-sharp active">menu</span>
+                </button>
+                <div class="dark-mode">
+                    <span class="material-icons-sharp active"> light_mode</span>
+                    <span class="material-icons-sharp "> dark_mode</span>
+                </div>
+
+                <div class="profile">
+                    <div class="info">
+                        <p>Hey, <b>Rosy</b></p>
+                        <small class="text-muted">Admin</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="images/p9.jpeg">
+                    </div>
+                </div>
+            </div>
+            <!-- End of nav-->
+
+            <!--User profile Section-->
+            <div class="user-profile">
+                <div class="logo">
+                    <img src ="images/cake_logo_1.jpeg">
+                    <h2>Cake Factory</h2>
+                    <p>Enjoy wonderful delights</p>
+                </div>
+            </div>
+
+            <div class="reminders">
+                <div class="headers">
+                    <h2>Reminders</h2>
+                    <span class="material-icons-sharp">
+                        notifications_active
+                    </span>
+                </div>
+
+                <div class="notifications">
+                    <div class="icon">
+                        <span class="material-icons-sharp">
+                            volume_up
+                        </span>
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>Cake Delivery</h3>
+                            <small class="text_muted">
+                                    9:00 AM - 1:30 PM
+                            </small>
+                        </div>
+                        <span class="material-icons-sharp">
+                            more_vert
+                        </span>
+                    </div>
+                </div>
+
+                <div class="notifications deactive">
+                    <div class="icon">
+                        <span class="material-icons-sharp">
+                            edit
+                        </span>
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>Cake Delivery</h3>
+                            <small class="text_muted">
+                                9:00 AM - 1:30 PM
+                            </small>
+                        </div>
+                        <span class="material-icons-sharp">
+                            more_vert
+                        </span>
+                    </div>
+                </div>
+
+                <div class="notifications add-reminder">
+                    <div>
+                        <span class="material-icons-sharp">
+                            notification_add
+                        </span>
+                        <h3>Add</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="orders.js"></script>
+    <script src="index.js"></script>
+    
+</body>
+</html>
